@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0630405D1E0AEF1F0079056C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630405C1E0AEF1F0079056C /* AppDelegate.swift */; };
+		0630405F1E0AEF1F0079056C /* LightingControlPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630405E1E0AEF1F0079056C /* LightingControlPanelViewController.swift */; };
+		063040621E0AEF1F0079056C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063040601E0AEF1F0079056C /* Main.storyboard */; };
+		063040641E0AEF1F0079056C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063040631E0AEF1F0079056C /* Assets.xcassets */; };
+		063040671E0AEF1F0079056C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063040651E0AEF1F0079056C /* LaunchScreen.storyboard */; };
+		063040771E0AF0850079056C /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0630406E1E0AF03D0079056C /* AFNetworking.framework */; };
+		063040781E0AF0850079056C /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0630406E1E0AF03D0079056C /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0630407A1E0AF0880079056C /* ParticleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0630406F1E0AF03D0079056C /* ParticleSDK.framework */; };
+		0630407B1E0AF0880079056C /* ParticleSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0630406F1E0AF03D0079056C /* ParticleSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		063040791E0AF0850079056C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				063040781E0AF0850079056C /* AFNetworking.framework in Embed Frameworks */,
+				0630407B1E0AF0880079056C /* ParticleSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		063040591E0AEF1F0079056C /* o-holy-night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "o-holy-night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0630405C1E0AEF1F0079056C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0630405E1E0AEF1F0079056C /* LightingControlPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightingControlPanelViewController.swift; sourceTree = "<group>"; };
+		063040611E0AEF1F0079056C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		063040631E0AEF1F0079056C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		063040661E0AEF1F0079056C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		063040681E0AEF1F0079056C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0630406E1E0AF03D0079056C /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		0630406F1E0AF03D0079056C /* ParticleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParticleSDK.framework; path = Carthage/Build/iOS/ParticleSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063040561E0AEF1F0079056C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063040771E0AF0850079056C /* AFNetworking.framework in Frameworks */,
+				0630407A1E0AF0880079056C /* ParticleSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063040501E0AEF1E0079056C = {
+			isa = PBXGroup;
+			children = (
+				0630406E1E0AF03D0079056C /* AFNetworking.framework */,
+				0630406F1E0AF03D0079056C /* ParticleSDK.framework */,
+				0630405B1E0AEF1F0079056C /* o-holy-night */,
+				0630405A1E0AEF1F0079056C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0630405A1E0AEF1F0079056C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063040591E0AEF1F0079056C /* o-holy-night.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0630405B1E0AEF1F0079056C /* o-holy-night */ = {
+			isa = PBXGroup;
+			children = (
+				0630405C1E0AEF1F0079056C /* AppDelegate.swift */,
+				0630405E1E0AEF1F0079056C /* LightingControlPanelViewController.swift */,
+				063040601E0AEF1F0079056C /* Main.storyboard */,
+				063040631E0AEF1F0079056C /* Assets.xcassets */,
+				063040651E0AEF1F0079056C /* LaunchScreen.storyboard */,
+				063040681E0AEF1F0079056C /* Info.plist */,
+			);
+			path = "o-holy-night";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		063040581E0AEF1F0079056C /* o-holy-night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0630406B1E0AEF1F0079056C /* Build configuration list for PBXNativeTarget "o-holy-night" */;
+			buildPhases = (
+				063040551E0AEF1F0079056C /* Sources */,
+				063040561E0AEF1F0079056C /* Frameworks */,
+				063040571E0AEF1F0079056C /* Resources */,
+				063040791E0AF0850079056C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "o-holy-night";
+			productName = "o-holy-night";
+			productReference = 063040591E0AEF1F0079056C /* o-holy-night.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		063040511E0AEF1E0079056C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Esther Jun Kim";
+				TargetAttributes = {
+					063040581E0AEF1F0079056C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2SQCB8N94B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 063040541E0AEF1E0079056C /* Build configuration list for PBXProject "o-holy-night" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 063040501E0AEF1E0079056C;
+			productRefGroup = 0630405A1E0AEF1F0079056C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063040581E0AEF1F0079056C /* o-holy-night */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		063040571E0AEF1F0079056C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063040671E0AEF1F0079056C /* LaunchScreen.storyboard in Resources */,
+				063040641E0AEF1F0079056C /* Assets.xcassets in Resources */,
+				063040621E0AEF1F0079056C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		063040551E0AEF1F0079056C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0630405F1E0AEF1F0079056C /* LightingControlPanelViewController.swift in Sources */,
+				0630405D1E0AEF1F0079056C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		063040601E0AEF1F0079056C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063040611E0AEF1F0079056C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		063040651E0AEF1F0079056C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063040661E0AEF1F0079056C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		063040691E0AEF1F0079056C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0630406A1E0AEF1F0079056C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0630406C1E0AEF1F0079056C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2SQCB8N94B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "o-holy-night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drejkim.o-holy-night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0630406D1E0AEF1F0079056C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2SQCB8N94B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "o-holy-night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drejkim.o-holy-night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063040541E0AEF1E0079056C /* Build configuration list for PBXProject "o-holy-night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063040691E0AEF1F0079056C /* Debug */,
+				0630406A1E0AEF1F0079056C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0630406B1E0AEF1F0079056C /* Build configuration list for PBXNativeTarget "o-holy-night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0630406C1E0AEF1F0079056C /* Debug */,
+				0630406D1E0AEF1F0079056C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 063040511E0AEF1E0079056C /* Project object */;
+}
