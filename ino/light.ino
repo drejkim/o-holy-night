@@ -6,7 +6,7 @@
 #define PIXEL_COUNT 7
 #define PIXEL_TYPE SK6812RGBW
 
-#define BRIGHTNESS 200 // 0 - 255
+#define BRIGHTNESS 255 // 0 - 255
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, PIXEL_TYPE);
 
@@ -99,10 +99,10 @@ void setLights(uint16_t pixels[], int numPixels, uint32_t color) {
 }
 
 void pulseLight(uint16_t pixel, uint32_t color) {
-  setPixelBrightness(pixel, color, 255);
+  setPixelBrightness(pixel, color, 150);
   strip.show();
 
-  delay(500);
+  delay(300);
 
   setPixelBrightness(pixel, color, BRIGHTNESS);
   strip.show();
@@ -110,11 +110,11 @@ void pulseLight(uint16_t pixel, uint32_t color) {
 
 void pulseLights(uint16_t pixels[], int numPixels, uint32_t color) {
   for(int i = 0; i < numPixels; i++) {
-    setPixelBrightness(pixels[i], color, 255);
+    setPixelBrightness(pixels[i], color, 150);
   }
   strip.show();
 
-  delay(500);
+  delay(300);
 
   for(int i = 0; i < numPixels; i++) {
     setPixelBrightness(pixels[i], color, BRIGHTNESS);
