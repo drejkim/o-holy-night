@@ -17,8 +17,8 @@ Check out this [video](https://youtu.be/TUcphhJK0uM) to see the lights choreogra
 ## Supplies
 
 * [Particle Photon](https://store.particle.io/)
+* Xcode / iOS
 * [NeoPixel strips](https://www.adafruit.com/product/1138)
-* An iOS device
 * Breadboard
 * 3 spools of wire (in 3 colors)
 * 1 sheet of cardstock paper (8.5 x 11 in)
